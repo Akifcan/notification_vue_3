@@ -1,0 +1,30 @@
+{
+  "name": "notification_vue_3",
+  "version": "1.0.0",
+  "description": "Notification package for vue.js 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akifcan/notification_vue_3.git"
+  },
+  "keywords": [
+    "notification",
+    "alert",
+    "vue",
+    "vue.js",
+    "3",
+    "vue",
+    "3",
+    "vue",
+    "plugin"
+  ],
+  "author": "Akifcan Kara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akifcan/notification_vue_3/issues"
+  },
+  "homepage": "https://github.com/Akifcan/notification_vue_3#readme"
+}
