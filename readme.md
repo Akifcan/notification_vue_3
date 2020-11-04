@@ -7,7 +7,7 @@
 `npm i notification_vue_3`
 
 ![gif](https://i.hizliresim.com/FqnMdO.gif)
-(live)[https://vue-3-notification.netlify.app]
+[live](https://vue-3-notification.netlify.app)
 
 ### Setup
 
