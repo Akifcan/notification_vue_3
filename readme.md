@@ -11,7 +11,27 @@
 ### Setup
 
 ```
-    setup here
+    //main.js
+    import { createApp } from 'vue'
+    import App from './App.vue'
+    import router from './router'
+    import store from './store'
+
+    import vue3notification from 'notification_vue_3'
+
+    createApp(App).use(store).use(router).use(vue3notification).mount('#app')
+
+    //app.js
+    <Notification :notification='initNotification' />
+
+    //example
+     <button @click="showNotification({type: 'primary', text: 'Hello 😀 '})">primary notification <b>default</b> </button>
+    <button @click="showNotification({type: 'primary', initialPosition: 'top-right', text: 'This is notifcation package 😊'})">primary notification <b>top right</b> </button>
+    <button @click="showNotification({type: 'warning', initialPosition: 'top-left', text: 'for <h1>vue 3</h1> 🎈🎈 '})">warning notification <b>top left</b> </button>
+    <button @click="showNotification({type: 'danger', initialPosition: 'bottom-left', text: 'you can manage your <b>notifications</b> with this package 📣📢'})">danger notification <b>bottom left</b> </button>
+    <button @click="showNotification({type: 'snackbar', text: `👊👍👍 I hope it's will be handy for your projects 🖐🙆‍♂️🙆‍♀️`})"> snackbar </button>
+    <button @click="$store.dispatch('triggerAlert')">from vuex</button>
+    <Notification :notification='initNotification' />
 ```
 
 ### Properties
